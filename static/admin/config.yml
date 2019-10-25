@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: sethaj/gatsby-scv
+media_folder: static/assets
+public_folder: assets
+collections:
+  - name: projects
+    label: Projects
+    folder: src/content/projects
+    create: true
+    slug: "{{period}}-{{title}}"
+    fields:
+      - { name: templateKey, label: "Template Key", widget: hidden, default: project }
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: datetime }
+      - { name: period, label: Period }
+      - { name: image, label: "Main Image", widget: image }
+      - { name: body, label: Body, widget: markdown }
+  - name: pages
+    label: Pages
+    files:
+      - name: homepage
+        label: Homepage
+        file: src/content/homepage.md
+        fields:
+          - { name: templateKey, label: "Templage Key", widget: hidden, default: homepage }
+          - name: titleSection
+            label: "Title Section"
+            widget: object
+            fields:
+              - { name: heading, label: Heading }
+              - name: heroSection
+                label: "Hero Section"
+                widget: object
+                fields:
+                  - { name: heading, label: Heading }
+                  - { name: text, label: Text, widget: markdown }
+                  - { name: backgroundImage, label "Background Image", object: image }
