@@ -35,4 +35,4 @@ collections:
                 fields:
                   - { name: heading, label: Heading }
                   - { name: text, label: Text, widget: markdown }
-                  - { name: backgroundImage, label "Background Image", object: image }
+                  - { name: backgroundImage, label "Background Image", widget: image }
