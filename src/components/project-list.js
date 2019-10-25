@@ -12,6 +12,9 @@ query {
     edges {
       node {
         id
+        fields {
+          slug
+        }
         frontmatter {
           title
           period
@@ -33,7 +36,7 @@ const ProjectList = ({data}) => {
   data = useStaticQuery(projectQuery)
 
   return (
-    <section>
+    <section className="grid-container">
       {
         data.allMarkdownRemark.edges.map(({node}) => {
           return <ProjectCard key={node.id} project={node} />

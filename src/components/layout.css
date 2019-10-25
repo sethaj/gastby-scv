@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+
+:root {
+  --mainBlack: #222;
+  --mainWhite: #fff;
+  --mainSpacing: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0.25em;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  line-height: 1.4;
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--mainSpacing);
+}
+p {
+  margin-bottom: 1.25rem;
+}
+a {
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 5em;
+  grid-row-gap: 5em;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+
+.card {
+
+}
