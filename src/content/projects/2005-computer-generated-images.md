@@ -10,3 +10,6 @@ Solo Exhibition at the Cressman Gallery at Cedar Crest college called "Computer 
 
 
 ![test](/assets/3_8_03_10_19_36_pm.jpg "test title")
+
+
+<a href="/assets/cedar-crest-college-press-release-jan252005.shtm-1.pdf">a pdf</a>

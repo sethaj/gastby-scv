@@ -11,7 +11,7 @@ import "./layout.css"
 const Layout = ({ children }) => {
 
   return (
-    <div class="background">
+    <div className="background">
       {children}
     </div>
   )
