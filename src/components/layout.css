@@ -18,6 +18,12 @@ body {
   line-height: 1.4;
   font-size: 1rem;
 }
+
+.background {
+  height: 100vh;
+  background-image: radial-gradient(circle 50px at 20% 50%, red, blue, green, purple);
+}
+
 h1,
 h2,
 h3,
@@ -35,11 +41,6 @@ a {
   text-decoration: none;
 }
 
-.bg-image {
-  height: 100vh;
-  opacity: 0.2;
-}
-
 .grid-container {
   display: grid;
   grid-column-gap: 5em;
@@ -51,8 +52,4 @@ a {
 .card {
   background: white;
   padding: 1rem;
-}
-
-.hero {
-  background: white;
 }
