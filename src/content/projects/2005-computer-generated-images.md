@@ -14,3 +14,5 @@ a pdf below
 [/assets/cedar-crest-college-press-release-jan252005.shtm-1.pdf](/assets/cedar-crest-college-press-release-jan252005.shtm-1.pdf)
 
 LinkToFile This is Link To File|/assets/cedar-crest-college-press-release-jan252005.shtm-1.pdf
+
+<a href="/assets//assets/cedar-crest-college-press-release-jan252005.shtm-1.pdf">Again Link To File....</a>
