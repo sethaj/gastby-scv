@@ -21,7 +21,7 @@ body {
 
 .background {
   height: 100vh;
-  background-image: radial-gradient(circle 50px at 20% 50%, red, blue, green, purple);
+  background-image: radial-gradient(circle 500px at 20% 50%, red, blue, green, purple, black);
 }
 
 h1,
@@ -43,8 +43,8 @@ a {
 
 .grid-container {
   display: grid;
-  grid-column-gap: 5em;
-  grid-row-gap: 5em;
+  grid-column-gap:0.5rem;
+  grid-row-gap: 0.5rem;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
 }
